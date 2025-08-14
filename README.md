@@ -11,7 +11,7 @@ pip install scipy
 ```
 
 ## 1. Prepare the Dataset and requirements
-The dataset is not included in this repository and needs to be prepared separately.
+The preprocessed dataset is not included in this repository and needs to be prepared separately.
 ### Dataset
 Amazon Review: https://cseweb.ucsd.edu/~jmcauley/datasets.html#amazon_reviews
 ### Data pre-processing
@@ -22,5 +22,6 @@ Text: Extract embeddings using Sentence Transformer.
 ## 2. Train & Evaluation
 Run `python main.py` to train LINKER
 ```
+cd src/
 python main.py
 ```
