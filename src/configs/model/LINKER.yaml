@@ -11,8 +11,8 @@ knn_k: 10
 learning_rate: [1e-03]
 cl_weights: [1e-02]
 
-user_k: [30]
-item_k: [20]
+user_k: [10, 20, 30]
+item_k: [10, 20, 30]
 modality_ratio: [0.1]
 threshold: [0.8, 0.9]
 generate_ratio: [0.2, 0.4, 0.6, 0.8, 1.0]
